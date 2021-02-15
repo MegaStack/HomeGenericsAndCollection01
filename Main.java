@@ -1,11 +1,12 @@
 package com.gmail.oastro36;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
 
 	public static void main(String[] args) {
-		ArrayList<Integer> intList = new ArrayList<>();
+		List<Integer> intList = new ArrayList<>();
 		for (int i = 0; i < 10; i++) {
 			intList.add(getRandomInt());
 		}
